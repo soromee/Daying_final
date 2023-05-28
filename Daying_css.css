@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'NanumSquare';
+    src: url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+    font-weight: thin;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Godo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+  }
+  
+@font-face {
+    font-family: 'Godo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+
+header>ul {
+    display: flex;
+    font-family: 'NanumSquareRound';
+}
+
+header> ul> li {
+    list-style-type: none;
+    margin-left: 1.5rem;
+}
+
+header> ul> li > a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+    color: rgb(51, 102, 64);
+}
+
+header> ul> li >a:hover {
+    border-bottom: 2px solid rgb(225, 225, 225);
+}
+
+section {
+    padding: 0 3rem;
+    text-align: center;
+}
+
+.Daying-cover {
+    background-image: url('https://i.ibb.co/LYHvdX2/A.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 470px;
+}
+
+.rounded-circle {
+    border-radius: 50% ;
+    width: 9rem;
+    margin-top: 8rem;
+}
+
+h1 {
+    font-family: 'godo';
+    font-weight: 100;
+    color: rgb(228, 235, 227);
+    margin-top: 2rem;
+}
+
+h3 {
+    font-family:'SUIT-Regular';
+    font-size:medium;
+    font-weight: 100;
+    color: rgb(124, 130, 123);
+    margin-top: 1rem;
+}
+
+.explanation {
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 5rem;
+}
+
+h2 {
+    font-weight: 1000;
+    color: rgb(51, 102, 64);
+    margin-bottom: 1rem;
+}
+
+.explanation p{
+    font-family:'SUIT-Regular';
+    font-weight: 200;
+    color: rgb(51, 102, 64);
+    margin: 1rem;
+}
+
+.footer {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(199, 199, 199);
+}
+
